@@ -1,6 +1,6 @@
 {
   "name": "hianime-api",
-  "main": "index.js",
+  "module": "index.js",
   "type": "module",
   "private": true,
   "peerDependencies": {
