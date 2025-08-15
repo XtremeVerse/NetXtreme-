@@ -3,34 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hianime - Anime Streaming</title>
+    <title>Hianime - Free Anime Streaming</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Hianime</div>
-            <div class="search-bar">
-                <input type="text" placeholder="Search anime...">
-                <button>Search</button>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Hianime</a>
+            <div class="search-container">
+                <input type="text" placeholder="Search anime..." id="search-input">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
             </div>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="featured-anime">
-            <!-- Content loaded via JS -->
-        </section>
-        
-        <section class="anime-list">
-            <!-- Content loaded via JS -->
-        </section>
-    </main>
-    
-    <footer>
-        <p>© 2023 Hianime. All anime information provided by third-party APIs.</p>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Popular</a>
+                <a href="#">Genres</a>
+                <a href="#">Movies</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Watch Anime Online Free</h1>
+            <p>Thousands of anime series and movies at your fingertips</p>
+            <button class="cta-button">Start Watching</button>
+        </div>
+    </section>
+
+    <!-- Anime Sections -->
+    <section class="anime-section">
+        <h2 class="section-title">Popular Anime</h2>
+        <div class="anime-grid" id="popular-anime">
+            <!-- Filled by JavaScript -->
+        </div>
+    </section>
+
+    <section class="anime-section">
+        <h2 class="section-title">Latest Episodes</h2>
+        <div class="anime-grid" id="latest-episodes">
+            <!-- Filled by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">DMCA</a>
+                <a href="#">Terms</a>
+            </div>
+            <p class="disclaimer">Disclaimer: This is a demo website for educational purposes only.</p>
+        </div>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
