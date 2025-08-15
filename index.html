@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HiAnime Clone</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hianime - Anime Streaming</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>HiAnime Clone</h1>
-    <input type="text" id="searchInput" placeholder="Search Anime...">
-  </header>
-
-  <section id="trending">
-    <h2>Trending Anime</h2>
-    <div class="anime-grid" id="trendingGrid"></div>
-  </section>
-
-  <section id="recent">
-    <h2>Recently Updated</h2>
-    <div class="anime-grid" id="recentGrid"></div>
-  </section>
-
-  <section id="top">
-    <h2>Top Anime</h2>
-    <div class="anime-grid" id="topGrid"></div>
-  </section>
-
-  <script src="script.js"></script>
+    <header>
+        <nav>
+            <div class="logo">Hianime</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search anime...">
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="featured-anime">
+            <!-- Content loaded via JS -->
+        </section>
+        
+        <section class="anime-list">
+            <!-- Content loaded via JS -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2023 Hianime. All anime information provided by third-party APIs.</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
