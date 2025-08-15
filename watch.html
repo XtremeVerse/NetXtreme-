@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Anime - Hianime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Hianime</a>
+            <div class="nav-links">
+                <a href="index.html">Back to Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="player-container">
+        <div class="video-container">
+            <video controls id="anime-player">
+                <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <div class="anime-info">
+            <h1 id="anime-title">Demo Anime Title</h1>
+            <p id="anime-description">This is a sample anime description for demonstration purposes.</p>
+            <div class="episode-selector">
+                <h3>Episodes</h3>
+                <div class="episodes-grid" id="episodes-list">
+                    <!-- Filled by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
